@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Gellix";
+    src: url("../public/fonts/Gellix-Bold.eot") , 
+         url("../public/fonts/Gellix-Bold.ttf") , 
+         url("../public/fonts/Gellix-Bold.woff") ,
+         url("../public/fonts/Gellix-Bold.woff2") ;
+    font-weight: 700; 
+    font-style: bold; 
+  }
+
+  .bold{
+    font-family: "Gellix";
+  }
+
+ 
