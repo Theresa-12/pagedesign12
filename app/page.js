@@ -2,17 +2,7 @@ import React from 'react';
 import'../public/fonts.css';
 
 const MyComponent = () => {
-  const menuOptions = [
-    "Pages",
-    "Integrations",
-    "Scalability",
-    "Requirements",
-    "Security",
-    "Others",
-    "Support",
-    "Hosting",
-    "Support",
-  ];
+  
   return (
     
     <div>
