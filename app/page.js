@@ -8,53 +8,77 @@ const MyComponent = () => {
     <div>
       { }
       <div  className='w-[100%] h-[161px] bg-[#202020] opacity-[1]' >
-        <div className="flex justify-between">
-          <img src="/logo.png"></img>
-          <img src="/moon.png"></img>
+        
+
+        <div className="flex justify-between pt-6">
+          
+          <a href="/">
+          <div  className='py-4 flex px-20 space-x-2'>
+          <span class="block h-[2px] bg-white w-5"></span>
+          <span class="block h-[2px] bg-white w-3"></span>
+          <span class="block h-[2px] bg-white w-1"></span>
+         
+
+  
+          </div>
+          </a>
+          <a href="">
+          <div className='pr-20'>
+          <img src="/moon.png" ></img>
+          </div>
+          </a>
          </div>
-         <div className='flex justify-evenly bold '>
-          <div >Pages
-          <div className='progress-bar bg-[#333333] h-[3px] w-[100px] '>
+         <div className='flex justify-evenly bold mb-4  pt-5'>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]' >Pages</div>
+          <div className='progress-bar bg-[#333333] h-[3px] w-[120px]  mt-3'>
             <div className='progress bg-white  h-full w-[100%]'></div>
           </div>
           </div>
           <div>Integrations
-          <div className='progress-bar bg-[#333333] h-[3px] w-[100px] '>
+          <div className='progress-bar bg-[#333333] h-[3px] w-[100px] mt-3 '>
             <div className='progress bg-white h-full  w-[50%]'></div>
           </div>
           </div>
-          <div>Scalability
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Scalability</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px]  mt-3'>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Requirements
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Requirements </div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3 '>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Security
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Security</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3'>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Others
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px]'>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Others</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3'>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Support
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Support</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3 '>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Hosting
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Hosting</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3 '>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
-          <div>Support
-          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] '>
+          <div>
+          <div className='text-[#DEDEDE] opacity-[0.17]'>Support</div>
+          <div className='progress-bar bg-[#333333] w-[100px] h-[3px] mt-3'>
             <div className='progress bg-white  h-full w-0'></div>
           </div>
           </div>
