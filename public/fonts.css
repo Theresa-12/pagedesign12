@@ -4,12 +4,25 @@
          url("../public/fonts/Gellix-Bold.ttf") , 
          url("../public/fonts/Gellix-Bold.woff") ,
          url("../public/fonts/Gellix-Bold.woff2") ;
-    font-weight: 700; 
-    font-style: bold; 
+    font-weight: 400; 
+    font-style: normal; 
   }
 
   .bold{
     font-family: "Gellix";
   }
 
+  @font-face {
+    font-family: "regular";
+    src: url("../public/fonts/Gellix-Regular.eot") , 
+         url("../public/fonts/Gellix-Regular.ttf") , 
+         url("../public/fonts/Gellix-Regular.woff") ,
+         url("../public/fonts/Gellix-Regular.woff2") ;
+    font-weight: 200; 
+    font-style: light; 
+  }
+
+  .regular{
+    font-family:"regular",
+  }
  
